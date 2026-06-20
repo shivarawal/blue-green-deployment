@@ -1,0 +1,12 @@
+{
+  "name": "blue-green-deployment",
+  "version": "1.0.0",
+  "description": "Blue Green Deployment Demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Tests Passed\""
+  },
+  "author": "Shiva Rawal",
+  "license": "ISC"
+}

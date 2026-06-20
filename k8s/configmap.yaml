@@ -1,0 +1,12 @@
+apiVersion: v1
+data:
+  APP_NAME: Blue-Green App
+  ENVIRONMENT: production
+  LOG_LEVEL: info
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2026-06-20T04:45:24Z"
+  name: app-config
+  namespace: prod
+  resourceVersion: "302652"
+  uid: 376a788c-c6f8-42ee-bba1-6543279b7ef6

@@ -1,0 +1,13 @@
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+
+metadata:
+  name: blue-green-pdb
+  namespace: prod
+
+spec:
+  minAvailable: 1
+
+  selector:
+    matchLabels:
+      app: blue-green-app
